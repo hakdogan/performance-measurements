@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t permormans-measurement-app .
+docker build -t performance-measurement-app .
