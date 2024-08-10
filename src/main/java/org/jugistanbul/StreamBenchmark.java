@@ -22,7 +22,7 @@ public class StreamBenchmark {
     @Benchmark
     public void measurement(){
         var list = new ArrayList<BigDecimal>();
-        IntStream.range(0, 10_000_000)
+        IntStream.range(0, 500_000)
                 .mapToObj(BigDecimal::valueOf)
                 .forEach(list::add);
     }
