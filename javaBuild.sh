@@ -10,4 +10,4 @@ $(find . -name "*.java")
 
 cd $main_directory/out
 
-jar -cmf ../manifest.txt measurement.java .
+jar -cmf ../manifest.txt measurement.jar .
